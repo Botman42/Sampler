@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B4A59C2D-C924-4F87-852E-109AD620FAF8}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{88487083-CFAE-4788-B1B8-BFACDFC25780}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{205706BB-739A-4CCF-9277-11823A61EEA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sampler.Console", "src\Sampler.Console\Sampler.Console.csproj", "{3ACEBA3E-D3A3-42D8-AF58-AD18B16690ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sampler.Test.UnitTests", "test\Sampler.Test.UnitTests\Sampler.Test.UnitTests.csproj", "{24C030F7-CAC6-4BF4-9BB2-81501986BB59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ACEBA3E-D3A3-42D8-AF58-AD18B16690ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACEBA3E-D3A3-42D8-AF58-AD18B16690ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACEBA3E-D3A3-42D8-AF58-AD18B16690ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACEBA3E-D3A3-42D8-AF58-AD18B16690ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C030F7-CAC6-4BF4-9BB2-81501986BB59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C030F7-CAC6-4BF4-9BB2-81501986BB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C030F7-CAC6-4BF4-9BB2-81501986BB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C030F7-CAC6-4BF4-9BB2-81501986BB59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3ACEBA3E-D3A3-42D8-AF58-AD18B16690ED} = {88487083-CFAE-4788-B1B8-BFACDFC25780}
+		{24C030F7-CAC6-4BF4-9BB2-81501986BB59} = {205706BB-739A-4CCF-9277-11823A61EEA5}
+	EndGlobalSection
+EndGlobal
