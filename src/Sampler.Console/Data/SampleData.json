@@ -1,0 +1,37 @@
+[
+  {
+    "measurementTime": "2017-01-03T10:04:45",
+    "measurementValue": 35.79,
+    "type": "TEMP"
+  },
+  {
+    "measurementTime": "2017-01-03T10:01:18",
+    "measurementValue": 98.78,
+    "type": "SPO2"
+  },
+  {
+    "measurementTime": "2017-01-03T10:09:07",
+    "measurementValue": 35.01,
+    "type": "TEMP"
+  },
+  {
+    "measurementTime": "2017-01-03T10:03:34",
+    "measurementValue": 96.49,
+    "type": "SPO2"
+  },
+  {
+    "measurementTime": "2017-01-03T10:02:01",
+    "measurementValue": 35.82,
+    "type": "TEMP"
+  },
+  {
+    "measurementTime": "2017-01-03T10:05:00",
+    "measurementValue": 97.17,
+    "type": "SPO2"
+  },
+  {
+    "measurementTime": "2017-01-03T10:05:01",
+    "measurementValue": 95.08,
+    "type": "SPO2"
+  }
+]

@@ -10,4 +10,10 @@
         <Link>.dockerignore</Link>
       </Content>
     </ItemGroup>
+    
+    <ItemGroup>
+      <None Update="Data\SampleData.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
 </Project>
