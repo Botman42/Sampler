@@ -1,6 +1,0 @@
-﻿services:
-  sampler:
-    image: sampler
-    build:
-      context: .
-      dockerfile: Sampler/Dockerfile
