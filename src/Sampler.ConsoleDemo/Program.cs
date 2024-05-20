@@ -1,6 +1,6 @@
 using System.Globalization;
-using Sampler.Console.Data;
-using Sampler.Console.Measurements;
+using Sampler.ConsoleDemo.Data;
+using Sampler.Measurements;
 
 // Print floating point numbers with a dot as decimal separator
 Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
@@ -9,7 +9,7 @@ Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 var jsonFilePath = "./Data/SampleData.json";
 var unsortedMeasurements = DataLoader.LoadMeasurementsFromJson(jsonFilePath);
 
-// Sample measurements using a 5 minute interval
+// Sample measurements using a 5-minute interval
 var sampler = new MeasurementSampler(TimeSpan.FromMinutes(5));
 var sampledMeasurements = sampler.Sample(DateTime.Parse("2017-01-03T10:00:00"), unsortedMeasurements);
 

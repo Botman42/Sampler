@@ -17,7 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\Sampler.Console\Sampler.Console.csproj" />
+      <ProjectReference Include="..\..\src\Sampler\Sampler.csproj" />
     </ItemGroup>
 
 </Project>

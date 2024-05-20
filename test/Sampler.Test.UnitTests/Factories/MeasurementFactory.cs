@@ -1,5 +1,5 @@
 using System.Diagnostics.Metrics;
-using Sampler.Console.Measurements;
+using Sampler.Measurements;
 
 namespace Sampler.Test.UnitTests.Factories;
 

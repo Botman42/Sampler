@@ -1,4 +1,4 @@
-namespace Sampler.Console.Measurements;
+namespace Sampler.Measurements;
 
 public class MeasurementSampler
 {

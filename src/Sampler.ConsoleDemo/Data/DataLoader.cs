@@ -1,8 +1,8 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using Sampler.Console.Measurements;
+using Sampler.Measurements;
 
-namespace Sampler.Console.Data;
+namespace Sampler.ConsoleDemo.Data;
 
 public static class DataLoader
 {

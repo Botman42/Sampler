@@ -1,5 +1,5 @@
 using FluentAssertions;
-using Sampler.Console.Measurements;
+using Sampler.Measurements;
 using Sampler.Test.UnitTests.Factories;
 
 namespace Sampler.Test.UnitTests.Measurements;
